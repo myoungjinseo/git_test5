@@ -1,7 +1,9 @@
 package studentB;
 
 public class Hello {
+	String message = "안녕하세요";
+
 	public void say() {
-		System.out.println("안녕하세요");
+		System.out.println(message);
 	}
 }
